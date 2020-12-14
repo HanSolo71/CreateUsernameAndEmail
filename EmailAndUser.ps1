@@ -9,7 +9,8 @@ $EmailAddress1 = @()
 $EmailAddress2 = @()
 $Username1
 $Username2
-$Domain = "Insert Domain"
+$Domain = "Domain Name"
+$NameCSV = "names.csv"
 
 #Import CSV Of Names
 $Names = Import-Csv $NameCSV
